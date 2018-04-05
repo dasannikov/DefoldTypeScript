@@ -18,7 +18,7 @@ Use an [example project](https://github.com/dasannikov/DefoldTypeScriptHello) fo
 - Open example project in Defold Editor 2 and Run.
 
 ## Code Generation
-Using TypeScript you get strong type check, typed arguments, classes, inheritance and so on. All reflects to Lua basic constructions. TS to Lua work the same way as TS to JS. Very useful for big projects development. Here is code examples:
+Using TypeScript you get strong type check, typed arguments, classes, inheritance and more. All reflects to Lua basic constructions. TS to Lua work the same way as TS to JS. Very useful for big projects development. Generated Lua code is very clean and human readable. Here is examples:
 
 **Input TS script:**
 
@@ -50,7 +50,7 @@ export class Unit {
     }
 }
 ```
-Output Lua script:
+**Output Lua script:**
 ``` Lua
 require("typescript_lualib")
 local exports = exports or {}
@@ -74,7 +74,6 @@ function Unit.update(self,dt)
     end
     self.phase=self.phase+dt
     local pos = vmath.vector3(self.startPos)
-
     pos.x=pos.x+(math.cos(self.phase)*self.rotationRadius)
     pos.y=pos.y+(math.sin(self.phase)*self.rotationRadius)
     pos.x=math.ceil(pos.x)
