@@ -20,4 +20,5 @@ Use an [example project](https://github.com/dasannikov/DefoldTypeScriptHello) fo
 ## TODO (Do not hesitate to contribute!)
 - Auto generate `defold.d.ts` file with full Defold support.
 - Add types to function's arguments where it's possible
+- Further development of [TypeScript to Lua Transpiler](https://github.com/Perryvw/TypescriptToLua)
 - Add build system (Webpack?)
