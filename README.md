@@ -9,6 +9,7 @@ Use an [example project](https://github.com/dasannikov/DefoldTypeScriptHello) fo
 - Install TypeScript to Lua transpiller `npm install -g typescript-to-lua` or from [GitHub repository](https://github.com/Perryvw/TypescriptToLua)
 
 ## Example
+![VS Code Defold TypeScript](img/vscode.jpg?raw=true "VS Code Defold TypeScript")
 - Install [Defold game engine](https://www.defold.com) and [VS Code](https://code.visualstudio.com)
 - Install Node.js and TypeScript to Lua transpiller (see above)
 - Clone [GitHub repo with example](https://github.com/dasannikov/DefoldTypeScriptHello)
