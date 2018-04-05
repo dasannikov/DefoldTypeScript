@@ -96,4 +96,4 @@ return exports
 - Auto generate `defold.d.ts` file with full Defold support.
 - Add types to function's arguments where it's possible
 - Further development of [TypeScript to Lua Transpiler](https://github.com/Perryvw/TypescriptToLua)
-- Add build system (Webpack?)
+- Add build system (Currently, for test purposes, it's just shell script)
