@@ -17,7 +17,7 @@ Use an [example project](https://github.com/dasannikov/DefoldTypeScriptHello) fo
 - Use Task `TS to Lua` to build Lua files (or default VS Code buld task shortcut `Cmd + Shift + B`)
 - Open example project in Defold Editor 2 and Run.
 
-## TODO
-- Generate `defold.d.ts` file with full Defold support.
-- Add types to functions where it's possible
+## TODO (Do not hesitate to contribute!)
+- Auto generate `defold.d.ts` file with full Defold support.
+- Add types to function's arguments where it's possible
 - Add build system (Webpack?)
