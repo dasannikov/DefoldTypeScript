@@ -1,7 +1,7 @@
 ![Defold TypeScript](img/logo.jpg?raw=true "Defold TypeScript")
 
 # TypeScript support for Defold game engine
-**Disclaimer:** It's early version with very basic functionally (currenly have only functions for example projects) but it works. A lot to do.
+**Disclaimer:** It's early version with very basic functionality (currently have only functions for sample projects) but it works. A lot to do.
 Use an [example project](https://github.com/dasannikov/DefoldTypeScriptHello) for basic tests.
 
 ## How to Install.
