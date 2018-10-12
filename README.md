@@ -5,7 +5,7 @@ TypeScript declaration files for Defold API.
 
 ## How to Install and Use.
 ![VS Code Defold TypeScript](img/vscode.jpg?raw=true "VS Code Defold TypeScript")
-- Check out example from this [GitHub repository](https://github.com/Perryvw/TypescriptToLua)
+- Check out and use example from this [GitHub repository](https://github.com/dasannikov/DefoldTypeScriptHello)
 
 ## Code Generation
 Using TypeScript you get strong type check, typed arguments, classes, inheritance and more. All reflects to Lua basic constructions. TS to Lua work the same way as TS to JS. Very useful for big projects development. Generated Lua code is very clean and human readable. 
