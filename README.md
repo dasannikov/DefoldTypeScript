@@ -1,4 +1,4 @@
-![Defold TypeScript](img/logo.jpg?raw=true "Defold TypeScript")
+![](img/logo.jpg)
 
 # TypeScript support for Defold game engine
 TypeScript declaration files for Defold API.
@@ -10,7 +10,7 @@ TypeScript declaration files for Defold API.
 - Or clone (you have to clone!! it has submodules) this [GitHub repository](https://github.com/dasannikov/DefoldTypeScriptHello)
 
 ## Code Generation
-Using TypeScript you get strong type check, typed arguments, classes, inheritance and more. All reflects to Lua basic constructions. TS to Lua work the same way as TS to JS. Very useful for big projects development. Generated Lua code is very clean and human readable. 
+Using TypeScript you get strong type check, typed arguments, classes, inheritance and more. All reflects to Lua basic constructions. TS to Lua work the same way as TS to JS. Very useful for big projects development. Generated Lua code is very clean and human readable.
 
 ## TODO
 - (DONE) Auto generate `defold.d.ts` file with full Defold support.
