@@ -168,12 +168,12 @@ STREAM.write('''
 ''')
 # crash
 
-PARSER = DefoldTS(STREAM, '../defold-doc-1.2.134/crash_doc.json', 'crash')
+PARSER = DefoldTS(STREAM, JSON_FOLDER + 'crash_doc.json', 'crash')
 PARSER.parse_to_stream(with_docs = True)
 
 # gui
 
-PARSER = DefoldTS(STREAM, '../defold-doc-1.2.134/gui_doc.json', 'gui')
+PARSER = DefoldTS(STREAM, JSON_FOLDER + 'gui_doc.json', 'gui')
 PARSER.exclude_function_list.append('final')
 PARSER.exclude_function_list.append('init')
 PARSER.exclude_function_list.append('on_input')
